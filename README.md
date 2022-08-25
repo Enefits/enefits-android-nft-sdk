@@ -13,12 +13,7 @@ We only show this once so if you lose this API Key, you’ll have to re-generate
 
 ##Run The Demo
 
-* To run a live demo, visit https://github.com/myiosfactory/EnefitsAndroidSDK and provide your own API key where requested.
-
-
-##Download The SDK
-
-* The Enefits Android SDK can be downloaded from --> https://github.com/myiosfactory/EnefitsAndroidSDK
+* To run a live demo, visit https://github.com/Enefits/enefits-android-nft-sdk and provide your own API key where requested.
 
 
 ##Installation
