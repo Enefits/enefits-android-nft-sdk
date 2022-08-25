@@ -29,17 +29,41 @@ allprojects {
 }
 ```
 
-* Add these dependencies in your project gradle
-
+* Steps to integrate AAR file
 
 ```
+1. Add AAR file in Libs folder (if not exist, create one at root)
+
+2. In Project level gradle file provide path like this in repository
+
+   repositories {
+      jcenter()
+      flatDir {
+        dirs 'libs'
+      }
+   }
+   
+3. In app level gradle file add dependency
+
 dependencies {
     // Coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1'
     
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1'
 
-    implementation 'com.github.Enefits:android-sdk:1.0'
+    implementation files('libs/EnefitsSDK.aar')
+
+     // WalletConnect
+     implementation 'com.github.walletconnect:kotlin-walletconnect-lib:0.9.8'
+     implementation 'com.github.komputing:khex:1.1.2'
+
+     // JSON
+     implementation 'com.squareup.moshi:moshi-adapters:1.13.0'
+     implementation 'com.squareup.moshi:moshi-kotlin:1.13.0'
+
+     // Http
+     implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.3'
+     implementation 'com.google.code.gson:gson:2.9.1'
 
 }
 ```
