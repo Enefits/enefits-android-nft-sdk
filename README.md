@@ -39,7 +39,7 @@ dependencies {
     
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1'
 
-    implementation ('com.github.myiosfactory:EnefitsAndroidSDK:1.0') { transitive = true }
+    implementation 'com.github.Enefits:android-sdk:1.0'
 
 }
 ```
