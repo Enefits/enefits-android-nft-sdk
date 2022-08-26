@@ -1,8 +1,8 @@
-package com.enefits
+package com.enefits.androidsample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.enefits.databinding.ActivityOffersBinding
+import com.enefits.androidsample.databinding.ActivityOffersBinding
 
 class OfferActivity : AppCompatActivity() {
     private lateinit var binding: ActivityOffersBinding

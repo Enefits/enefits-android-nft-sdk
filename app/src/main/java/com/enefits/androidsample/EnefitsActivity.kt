@@ -1,4 +1,4 @@
-package com.enefits
+package com.enefits.androidsample
 
 import android.app.Activity
 import android.app.ProgressDialog
@@ -14,8 +14,8 @@ import android.net.ConnectivityManager
 import android.util.Log
 import android.view.View
 import android.view.inputmethod.InputMethodManager
+import com.enefits.androidsample.databinding.ActivityEnefitsBinding
 import com.enefits.connect.Enefits
-import com.enefits.databinding.ActivityEnefitsBinding
 import kotlinx.coroutines.launch
 import org.json.JSONObject
 

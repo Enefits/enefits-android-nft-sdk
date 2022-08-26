@@ -1,4 +1,4 @@
-package com.enefits
+package com.enefits.androidsample
 
 import android.content.Context
 import android.content.SharedPreferences

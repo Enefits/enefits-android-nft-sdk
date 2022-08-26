@@ -6,7 +6,7 @@
     android:background="@color/white"
     android:layout_height="match_parent"
     tools:viewBindingIgnore="false"
-    tools:context=".EnefitsActivity">
+    tools:context=".androidsample.EnefitsActivity">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
