@@ -32,7 +32,7 @@ allprojects {
 * Steps to integrate AAR file
 
 ```
-1. Add AAR file in Libs folder (if not exist, create one at root). AAR can be found at https://github.com/Enefits/enefits-android-nft-sdk/tree/main/EnefitsAar
+1. Add AAR file in Libs folder (if not exist, create one at root). AAR can be found at [https://github.com/Enefits/enefits-android-nft-sdk/tree/main/EnefitsAar]
 
 2. In Project level gradle file, provide path like this in repository
 
