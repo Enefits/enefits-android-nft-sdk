@@ -13,7 +13,7 @@ We only show this once so if you lose this API Key, you’ll have to re-generate
 
 ##Run The Demo
 
-* To run a live demo, visit https://github.com/Enefits/enefits-android-nft-sdk and provide your own API key where requested.
+* To run a live demo, visit https://github.com/Enefits/enefits-android-nft-sdk/tree/main/EnefitsSample and provide your own API key where requested.
 
 
 ##Installation
@@ -32,9 +32,9 @@ allprojects {
 * Steps to integrate AAR file
 
 ```
-1. Add AAR file in Libs folder (if not exist, create one at root)
+1. Add AAR file in Libs folder (if not exist, create one at root). AAR can be found at https://github.com/Enefits/enefits-android-nft-sdk/tree/main/EnefitsAar
 
-2. In Project level gradle file provide path like this in repository
+2. In Project level gradle file, provide path like this in repository
 
    repositories {
       jcenter()
@@ -43,7 +43,7 @@ allprojects {
       }
    }
    
-3. In app level gradle file add dependency
+3. In app level gradle file, add dependency
 
 dependencies {
     // Coroutines
